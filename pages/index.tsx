@@ -1,5 +1,5 @@
 export default function Home() {
-  return (
-    <h1>Hello world</h1>
-  )
+  const a = 'a'
+
+  return <h1>Hello world</h1>
 }
