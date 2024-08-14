@@ -1,5 +1,15 @@
 export default function Home() {
-  const a = 'a'
-
-  return <h1>Hello world</h1>
+  return (
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        width: '100vw',
+      }}
+    >
+      <h1>🚧 Em Construção 👷🏻</h1>
+    </div>
+  )
 }
