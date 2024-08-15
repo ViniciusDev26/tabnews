@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "Clone do tab-news criado a partir do curso.dev",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "@types/node": "22.2.0",
     "@types/react": "18.3.3",
     "prettier": "^3.3.3",
-    "typescript": "5.5.4"
+    "typescript": "5.5.4",
+    "vitest": "^2.0.5"
   }
 }
